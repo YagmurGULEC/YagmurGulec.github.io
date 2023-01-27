@@ -41,5 +41,4 @@ class Backpack {
   }
 }
 
-// Export the Backpack class to be used by other files
-export default Backpack;
+
