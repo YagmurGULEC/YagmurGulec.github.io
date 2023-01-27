@@ -3,7 +3,7 @@
  * @link https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
  * @link https://developer.mozilla.org/en-US/docs/Web/Events
  */
-import backpackObjectArray from "./components/data.js";
+import backpackObjectArray from ".data.js";
 
 /**
  * Add event listener to the lid-toggle button.
