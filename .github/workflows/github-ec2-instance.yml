@@ -20,8 +20,9 @@ jobs:
         with:
           host: ${{ secrets.HOST_DNS }}
           username: ${{ secrets.USERNAME }}
-        
-          script: mkdir -p ${{ secrets.TARGET_DIR }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            mkdir -p ${{ secrets.TARGET_DIR }}
            
           
       
