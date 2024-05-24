@@ -15,11 +15,13 @@ jobs:
       - name: Checkout the files
         uses: actions/checkout@v2
 
-      - name: Before deployment
-        uses: appleboy/ssh-action@main
+      - name: Make a directory remote ssh commands
+        uses: appleboy/ssh-action@master
         with:
-          script: |
-            mkdir -p ${{ secrets.TARGET_DIR }}
+          host: ${{ secrets.HOST_DNS }}
+          username: ${{ secrets.USERNAME }}
+        
+          script: mkdir -p ${{ secrets.TARGET_DIR }}
            
           
       
