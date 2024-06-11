@@ -1,0 +1,87 @@
+{
+    "photos": [
+        {
+            
+            "url": "./assets/images/city-1.jpeg",
+            "English":{
+                "title": "Photo 1",
+                "description": "Description 1"
+            }
+           
+        },
+        {
+            
+            "url": "./assets/images/city-2.jpeg",
+            "English":{
+                "title": "Photo 2",
+                "description": "Description 2"
+            }
+        },
+        {
+            
+            "url": "./assets/images/city-3.jpeg",
+            "English":{
+                "title": "Photo 3",
+                "description": "Description 3"
+            }
+        }
+    ],
+
+    "blogs":
+    [
+        {
+            "photo":"./assets/images/city-1.jpeg",
+            "English":{
+                "title": "Blog 1",
+                "description": "Description 1",
+                "content":[
+                    "Content 1",
+                    "Content 2",
+                    "Content 3"
+                ]
+            }
+        },
+        {
+           
+            "English":{
+                "title": "Blog 2",
+                "description": "Description 2",
+                "content":[
+                    "Content 1",
+                    "Content 2",
+                    "Content 3"
+                ]
+            }
+        },
+        {
+            
+            "English":{
+                "title": "Blog 3",
+                "description": "Description 3",
+                "content":[
+                    "Blog-3 Content 1",
+                    "Blog-3 Content 2",
+                    "Content 3"
+                ]
+            }
+        }
+    ],
+    "movies":
+    [
+        {
+            "photo":"./assets/movies/movie1.jpeg",
+            "title": "Perfect Days",
+            "description": "Directed by Wim Wenders",
+            "English":{
+                
+                "content":[
+                    "Content 1",
+                    "Content 2",
+                    "Content 3"
+                ]
+            }
+        }
+        
+        
+    ]
+}
