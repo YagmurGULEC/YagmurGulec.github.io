@@ -14,9 +14,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-      
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-          <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
     
     </head>
     <body id="page-top">
@@ -32,11 +31,12 @@
                         <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#photos">Photos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#blogs">Blogs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#movies">Movies</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</a>
+                            <a class="nav-link dropdown-toggle selected" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">English</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                 <li><a class="dropdown-item" href="#">French</a></li>
-                                <li><a class="dropdown-item" href="#">Turkish</a></li>
+
                             </ul>
                         </li>
                         
@@ -77,8 +77,7 @@
                     </div>
                 </div>
                 <div class="row gx-5 photos">
-                    
-                </div>
+            </div>
             </div>
         </section>
         <section class="py-5 bg-light" id="blogs">
@@ -90,17 +89,17 @@
                    
                     <div class="col-xl-12 mt-5 text-center blogs">
                         
-                        <div class="text-center">
-                            <a class="btn btn-primary mx-2 prev" href="#!"><i class="fa-solid fa-arrow-left"></i></a>
-                            <a class="btn btn-primary mx-2 next" href="#!"><i class="fa-solid fa-arrow-right"></i></a>
-                        </div>
+                        
                     </div>
-                   
+                    <div class="text-center">
+                        <a class="btn btn-primary mx-2 prev disabled" href="#!"><i class="fa-solid fa-arrow-left"></i></a>
+                        <a class="btn btn-primary mx-2 next" href="#!"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Blog preview section-->
-        <section class="py-5">
+        <section class="py-5" id="movies">
             <div class="container px-5">
                 <div class="text-center">
                     <h2 class="fw-bolder">Movies</h2>

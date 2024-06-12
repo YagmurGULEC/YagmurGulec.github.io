@@ -8,7 +8,9 @@
   box-shadow: var(--light-shadow);
   height: 15rem;
 }
-
+.movie-photo{
+  height:50rem;
+}
 /* .blog-section{
   display:none;
 } */
