@@ -15,6 +15,9 @@ const nextConfig = {
   
   // Add the asset prefix for serving assets correctly
   assetPrefix: isProd ? '/YagmurGULEC.github.io/' : '',
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
