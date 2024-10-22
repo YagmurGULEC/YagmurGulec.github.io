@@ -11,10 +11,10 @@ const nextConfig = {
   output: 'export',
   
   // Add the base path for GitHub Pages
-  basePath:'/YagmurGULEC.github.io',
+  basePath:'',
   
   // Add the asset prefix for serving assets correctly
-  assetPrefix: '/YagmurGULEC.github.io/',
+  assetPrefix: '/',
   images: {
     unoptimized: true,
   },

@@ -13,18 +13,18 @@ export default function Education()
 
 
  return (
-  <section class="resume-section" id="education">
-  <div class="resume-section-content">
-      <h2 class="mb-5">Education</h2>
+  <section className="resume-section" id="education">
+  <div className="resume-section-content">
+      <h2 className="mb-5">Education</h2>
       {educations.map((education) => (
-      <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="flex-grow-1">
-              <h4 class="mb-0">{education.school}</h4>
-              <div class="subheading mb-3">{education.degree}</div>
+      <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div className="flex-grow-1">
+              <h4 className="mb-0">{education.school}</h4>
+              <div className="subheading mb-3">{education.degree}</div>
               <div>{education.major}</div>
               <p>{education.gpa}</p>
           </div>
-          <div class="flex-shrink-0"><span class="text-primary">{education.date}</span></div>
+          <div className="flex-shrink-0"><span className="text-primary">{education.date}</span></div>
       </div>
       ))
     }
