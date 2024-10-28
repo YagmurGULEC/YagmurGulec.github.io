@@ -10,17 +10,19 @@ import Education from "@/components/Education";
 import Skills from "@/components/Skills";
 import Professional from "@/components/Professional";
 
+
 export default function Home() {
+
   return (
     <Layout>
     <Navbar/>
     <About/>
     <hr className="m-0" />
-    < Skills/>
-    <hr className="m-0" />
     <Experience/>
     <hr className="m-0" />
     <Education/>
+    <hr className="m-0" />
+    < Skills/>
     <hr className="m-0" />
     <Professional/>
     </Layout>
