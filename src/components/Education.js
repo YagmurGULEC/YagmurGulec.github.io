@@ -32,14 +32,14 @@ export default function Education({state})
     "French":[
         {
             "school": "Université de Bishop, Québec, CA",
-            "degree": "Maitrise en Science",
+            "degree": "Maîtrise en Science",
             "major": "L'informatique (Axé sur la science des données)",
             "gpa": "GPA: 3.9/4.0",
             "date": "Janvier 2022 - Mai 2024",
         },
         {
           "school": "Izmir Institute of Technology, Turquie",
-          "degree": "Maitrise en Science",
+          "degree": "Maîtrise en Science",
           "major": "L'ingénierie énergétique",
           "gpa": "GPA: 91.5/100",
           "date": "Janvier 2013 - Février 2016",
